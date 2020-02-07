@@ -1,0 +1,8 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.ethan.gmall.user.mapper.UserMapper">
+    <select id="selectAllUser" resultType="top.ethan.gmall.bean.UmsMember">
+        select * from ums_member
+    </select>
+</mapper>
